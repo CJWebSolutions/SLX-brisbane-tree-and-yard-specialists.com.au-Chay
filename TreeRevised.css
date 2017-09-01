@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil:400,700');
+/*----------------------------------------------------------------
+	Branding Colour
+----------------------------------------------------------------*/
+h2 {
+    line-height: 45px;
+    font-size: 36px;
+}
+h1, h2, h3, .formbuilder-form label {
+    color: #3b5a0c;
+}
+
+#content h3 {
+	font-size: 36px;
+}
+#banner h1, #banner h3, #banner p, header a, header span,#header1 p, #header2a:before,header a:hover,#contact h2, .contact_detail {
+	color: #fff;
+}
+#services h3 {
+	font-size: 36px;
+	color: #e6ffbd;
+}
+#services p{
+	color: #fff;
+}
+ul li,body {
+	color: #000;
+}
+h3, h2, #services h3 {
+    font-weight: 600;
+}
+#header1 .formbuilder-form label, #services p,.contact_detail, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus{
+	font-weight:400;
+}
+#banner h1, #banner p, header a, header span, #header2a:before,header a:hover{
+    }
+hr {
+	margin-top:-20px;
+}
+#content4a h3{
+    font-size:40px;
+    line-height:40px;
+}
+.formbuilder-form label, .btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn {
+    text-transform: uppercase;}
+#header2b a,.btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn, #contact2f, #contact2e, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+    text-decoration: none;}
+
+/*----------------------------------------------------------------
+- Form -*/
+.form, #quote_form_form, #extraFormsContainer .modal-dialog {
+	border-radius: 5px;
+    box-shadow: 0 10px 15px 2px rgba(0,0,0,.2);
+    background-color: rgba(255, 255, 255, 0.88);}
+
+/*----------------------------------------------------------------
+- Buttons -*/
+.btn{
+    color: #fff;
+    background-color:transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 35px;
+    text-shadow:none;
+    font-weight: 700;}
+.formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form  {
+    background-color: rgb(104, 162, 19);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 35px;}
+@media (min-width: 711px) {
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn{
+    text-shadow:none;
+    background: rgb(59, 90, 12);
+    border:none;
+    font-weight: 700;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    }
+}
+
+.formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover  {
+    background-color: rgb(57, 57, 57);
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+/*----------------------------------------------------------------
+	Custom Styles
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+- Font Family -*/
+
+#services h3,
+#header h1,
+#content h2,
+#content h3,
+#contact h2,
+#banner h1{
+    font-family: 'Stardos Stencil', cursive;
+    }
+
+
+h2, h3, h4, #banner p,.btn, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+/*----------------------------------------------------------------
+- Header -*/
+#header{
+    padding: 0px;
+    margin-top:-3.5px;
+}
+#header2{
+    padding-bottom:27Px;
+}
+
+#header1 h1 {
+	color:white;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	font-size:40px;
+	line-height:35px;
+	padding:20px;
+	width: 80%;
+	background-color: rgb(59, 90, 12);
+	box-shadow: 0 0.075em 0.075em rgba(28, 27, 27, 0.5);
+}
+
+
+#header2b {
+	font-size: 18px;
+}
+#header2a:before{
+	font-size: 40px;
+	content: '\f098';
+	padding-right: 5px;
+}
+#header2a {}
+/*----------------------------------------------------------------
+- Banner -*/
+#banner h1 {
+    font-size: 60px;
+}
+#banner p {
+	font-weight: 400;
+}
+.banner_cover {
+    opacity: 0.3;
+    background-color:#000000;}
+/*----------------------------------------------------------------
+- Services -*/
+#services {
+    background: rgb(59, 90, 12);
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+}
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;
+    padding: 25px 10px 25px 10px;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.1);
+    border-radius: 35px;
+    background:rgba(255, 255, 255, 0.3);}
+    
+/*----------------------------------------------------------------
+- Content -*/
+#content {
+	background-color: #DAD2BF;
+}
+#content p{
+	font-size: 18px;
+	line-height: 21px;
+}
+
+
+#content, #header {
+    border-top: 5px solid #ffffff;
+}
+
+.content_block {
+    padding-bottom: 43px;
+}
+#content .img-responsive, .img-responsive {
+    transition: 0.2s 0.2s ease-out;}
+#content .img-responsive:hover, .img-responsive:hover {
+    transform: scale(1.05);}
+#content2a{
+    padding-top: 31px;
+}
+#contact2 iframe,
+#content img,
+#contact img {
+	border-radius:6px;
+}
+#contact2f {
+    margin-bottom: 0px;
+}
+
+
+/*----------------------------------------------------------------
+- Contact -*/
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, footer a , footer {
+    color: #828282;
+    }
+footer {
+    border-top: 5px solid #3b5a0c;
+    background-color: #1c1c1c;
+    padding: 25px 0 25px;
+    }
+/*----------------------------------------------------------------
+	Hide Blocks
+----------------------------------------------------------------*/
+#content4,#content5,#content6,#contact1b,#contact2c,#contact2d,#contact2e,#contact2b,#contact2c{display:none;}
+/*----------------------------------------------------------------
+	Media Queries
+----------------------------------------------------------------*/
+@media (max-width: 1199px) {#header1 p{font-size:35px;}}
+@media (max-width: 991px) {#header2 {padding-top:2px;}}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #banner, #banner h1, #contact h2 {text-align:center;}
+    #banner h1 {font-size:50px;}
+    #header1 p{width:100%;}
+    #header2b a{font-size:16px}
+    li:before{display:none;}
+    .content_block{padding-bottom:20px;}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: scale(1.0);}
+}
+@media (max-width: 381px) {#header1 p{font-size:29px;}}
+@media (max-width: 400px) {.btn{width:100%;padding:20px}}
+@media (max-width: 767px) {#service3 {clear:left }}
+
+/*- Animation & Extras-*/
+/*#wrapper {display: flex; flex-direction: column;}
+#services { order: 2; }
+#banner { order: 1; }
+#content { order: 3; }
+#contact { order: 4; }
+footer { order: 5; }*/
+#banner1 {
+    animation:move 2s ease;
+    width: 100%;}
+	@-webkit-keyframes move {
+	  from {transform: scale(0.8);opacity:0;}
+	  to {transform: scale(1.0);opacity:1;}}
+
+/*----------------------------------------------------------------
+	Added
+----------------------------------------------------------------*/
+
+
+ @media (min-width: 767px) {
+
+#content1a, #content2b, #content3a, #content4b, #content5a, #content6b {
+    width: 60%;
+}
+
+#content1b, #content2a, #content3b, #content4a, #content5b, #content6a {
+    width: 40%;
+}
+
+/* if images in content have set widths in the source code then active code below*/
+
+#content img {
+    width:100% !important;
+}
+
+
+
+}
+/*----------------------------------------------------------------
+	changes
+----------------------------------------------------------------*/
+
+#content ul li:before, 
+#contact1a ul li:before, 
+#contact1b ul li:before, 
+#contact2 ul li:before {
+    content: '\f00c';
+}
+
+@media only screen and (max-width: 767px){
+    #content1b ul li:before, 
+    #content2a ul li:before, 
+    #content3b ul li:before, 
+    #content4a ul li:before, 
+    #content5b ul li:before,
+    #content6a ul li:before {
+            position: relative;
+            top: auto;
+            left: auto;
+            margin-right: 8px;
+        }
+}
+@media (min-width: 767px) {
+	#contact2 iframe {
+		height: 439px;
+	}
+	#content1b, 
+	#content2a, 
+	#content3b, 
+	#content4a, 
+	#content5b, 
+	#content6a {
+		padding-top: 31px;
+		}
+}
